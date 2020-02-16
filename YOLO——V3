@@ -1,0 +1,10 @@
+只有认真理解了源码，才是真正学懂了一个算法，yolov3的pytorch版官方源码见github：https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
+作者写了个官方原版的教程，在这个教程中，作者使用 PyTorch 实现基于 YOLO v3 的目标检测器，该教程一共有五个部分，虽然并没有含有训练部分。链接：https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
+这个教程已经有了全的翻译版本，分为上下两个部分，上部分的链接：https://www.jiqizhixin.com/articles/2018-04-23-3
+下部分的链接：https://www.jiqizhixin.com/articles/042602?from=synced&keyword=%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8BPyTorch%E9%A1%B9%E7%9B%AE%EF%BC%9AYOLO%20v3%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%AE%9E%E7%8E%B0
+有了上面这些教程，我这个教程自然不会重复之前的工作，而是给出每个程序每行代码最详细全面的小白入门注释，不论基础多差都能看懂，注释到每个语句每个变量是什么意思，只有把工作做细到这个程度，才是真正对我们这些小白有利（大神们请忽略，这只是给我们小白们看的。）
+本篇是系列教程的第一篇，详细阐述程序darknet.py。下面几篇地址如下：
+史上最详细的Pytorch版yolov3代码中文注释详解（二）：https://blog.csdn.net/qq_34199326/article/details/84206079
+史上最详细的Pytorch版yolov3代码中文注释详解（三）：https://blog.csdn.net/qq_34199326/article/details/84349977
+史上最详细的Pytorch版yolov3代码中文注释详解（四）：https://blog.csdn.net/qq_34199326/article/details/84529661
+话不多说，先看darknet.py代码的超详细注释。
